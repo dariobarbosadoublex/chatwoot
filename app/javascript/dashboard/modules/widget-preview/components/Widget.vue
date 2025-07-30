@@ -149,7 +149,7 @@ export default {
           :config="getWidgetConfig"
         />
         <WidgetFooter :config="getWidgetConfig" />
-        <div v-if="$t('INBOX_MGMT.WIDGET_BUILDER.BRANDING_TEXT')" class="py-2.5 flex justify-center">
+        <div v-if="$t('INBOX_MGMT.WIDGET_BUILDER.BRANDING_TEXT') && $t('INBOX_MGMT.WIDGET_BUILDER.BRANDING_TEXT') !== 'INBOX_MGMT.WIDGET_BUILDER.BRANDING_TEXT' && globalConfig.installationName" class="py-2.5 flex justify-center">
           <a
             class="items-center gap-0.5 text-slate-500 dark:text-slate-400 cursor-pointer flex filter grayscale opacity-90 hover:grayscale-0 hover:opacity-100 text-xxs"
           >

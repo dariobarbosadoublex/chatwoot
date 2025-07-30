@@ -46,7 +46,7 @@ export default {
 
 <template>
   <div
-    v-if="globalConfig.brandName && !disableBranding"
+    v-if="globalConfig.brandName && !disableBranding && $t('POWERED_BY') && $t('POWERED_BY') !== 'POWERED_BY'"
     class="px-0 py-3 flex justify-center"
   >
     <a
@@ -60,7 +60,7 @@ export default {
         :alt="globalConfig.brandName"
         :src="globalConfig.logoThumbnail"
       />
-      <span v-if="$t('POWERED_BY')">
+      <span>
         {{ useInstallationName($t('POWERED_BY'), globalConfig.brandName) }}
       </span>
     </a>
