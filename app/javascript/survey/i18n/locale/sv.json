@@ -14,6 +14,5 @@
       "SUCCESS_MESSAGE": "Undersökningen har uppdaterats",
       "ERROR_MESSAGE": "Kunde inte ansluta till Woot Server, försök igen senare"
     }
-  },
-  "POWERED_BY": "Drivs av Chatwoot"
+  }
 }

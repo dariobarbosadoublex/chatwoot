@@ -14,6 +14,5 @@
       "SUCCESS_MESSAGE": "正常に送信されました",
       "ERROR_MESSAGE": "サーバーに接続できませんでした。後でもう一度お試しください。"
     }
-  },
-  "POWERED_BY": "提供：Chatwoot"
+  }
 }

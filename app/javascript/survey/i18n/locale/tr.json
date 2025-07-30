@@ -14,6 +14,5 @@
       "SUCCESS_MESSAGE": "Anket başarıyla güncellendi",
       "ERROR_MESSAGE": "Woot Sunucusuna bağlanılamadı, Lütfen daha sonra tekrar deneyin"
     }
-  },
-  "POWERED_BY": "Chatwoot tarafından desteklenmektedir"
+  }
 }
